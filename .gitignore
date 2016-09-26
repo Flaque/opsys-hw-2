@@ -1,13 +1,14 @@
 *.d
 
+# Object files
 *.o
 *.ko
 *.obj
 *.elf
 
-*.gch
 *.pch
 
+# Libraries
 *.lib
 *.a
 *.la
@@ -17,3 +18,21 @@
 *.app
 
 *.swp
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
